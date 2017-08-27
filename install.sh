@@ -23,12 +23,6 @@ fi
 
 ### Method declarations
 
-# Method used to print out the help/usage message
-#
-usage() {
-	echo "Usage: " 											# TODO: Finalize the usage message
-	exit 1
-}
 
 # Method to report an error and exit the script
 #
