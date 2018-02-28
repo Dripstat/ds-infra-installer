@@ -1,5 +1,5 @@
 #!/bin/bash
-### (C) Chronon Systems, Inc. 2017
+### (C) Chronon Systems, Inc. 2018
 # All rights reserved
 # DripStat Infra Agent installation script - installs the DripStat Infra Agent on supported Linux distros
 
