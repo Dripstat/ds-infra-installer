@@ -99,8 +99,12 @@ detect_os() {
 
 	case ${distro} in
 		amzn | amazon)
-			distro=redhat									# Amazon Linux has identical install commands with RH6
-			version=6
+			if [[ $version -eq 2 ]]; then
+                                version=7
+                        else
+                                version=6
+                        fi
+			distro=redhat									# Amazon Linux has identical install commands with RH
 			;;
 		centos)
 			distro=redhat									# CentOS has identical install commands with RH
